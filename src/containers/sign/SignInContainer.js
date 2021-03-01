@@ -205,17 +205,17 @@ const SignInContainer = () => {
 
     const kakaoLoginClickHandler = () => {
         window.location =
-            PROTOCOL_ENV + 'api.ajoonamu.com/api/user/kakao?device=mobile';
+            PROTOCOL_ENV + 'test/api/user/kakao?device=mobile';
     };
 
     const naverLoginClickHandler = () => {
         window.location =
-            PROTOCOL_ENV + 'api.ajoonamu.com/api/user/naver?device=mobile';
+            PROTOCOL_ENV + 'test/api/user/naver?device=mobile';
     };
 
     const facebookLoginClickHandler = () => {
         window.location =
-            PROTOCOL_ENV + 'api.ajoonamu.com/api/user/facebook?device=mobile';
+            PROTOCOL_ENV + 'test/api/user/facebook?device=mobile';
     };
 
     useEffect(() => {
