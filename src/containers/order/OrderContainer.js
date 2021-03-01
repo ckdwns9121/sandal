@@ -397,9 +397,6 @@ const OrderContainer = ({ modal }) => {
                 let payple_payer_id = '';
 
                 let buyer_no = user ? user.id : null; //고객 고유번호
-             //   let buyer_name = noAuthName; //고객 이름
-             //   let buyer_hp = `${hp}`; //고객 번호
-              //  let buyer_email = user && user.email; //고객 이메일
                 let buy_goods = '(주)샌달 상품 결제'; //구매하는 물건 이름
                 let buy_total = Number(
                     parseInt(totalPrice) +
@@ -473,9 +470,9 @@ const OrderContainer = ({ modal }) => {
 
                obj.PCD_PAYER_AUTHTYPE = 'pwd'; // (선택) [간편결제/정기결제] 본인인증 방식
                 obj.PCD_RST_URL =
-                    PROTOCOL_ENV + 'api.ajoonamu.com/api/user/payple/order_mobile'; // (필수) 결제(요청)결과 RETURN URL
+                    PROTOCOL_ENV + 'test/order_mobile'; // (필수) 결제(요청)결과 RETURN URL
                 obj.payple_auth_file =
-                    PROTOCOL_ENV + 'api.ajoonamu.com/api/user/payple/auth'; // (필수) 가맹점이 직접 생성한 인증파일
+                    PROTOCOL_ENV + 'test/auth'; // (필수) 가맹점이 직접 생성한 인증파일
                 obj.callbackFunction = getResult;
 
                 PaypleCpayAuthCheck(obj);
@@ -933,8 +930,6 @@ const OrderContainer = ({ modal }) => {
                 payment={payment}
                 onClick={onClickPayment}
             />
-            {/* <script src="https://testcpay.payple.kr/js/cpay.payple.1.0.1.js"></script> */}
-            {/* <script src="https://cpay.payple.kr/js/cpay.payple.1.0.1.js"></script> */}
         </>
     );
 };

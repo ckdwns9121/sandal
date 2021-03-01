@@ -33,6 +33,6 @@ export const Paths = {
         tos :'/tos',
         oauth:'/oauth'
     },
-    api: PROTOCOL_ENV + 'api.ajoonamu.com/api/',
-    storage: PROTOCOL_ENV + 'api.ajoonamu.com/storage/'
+    api: PROTOCOL_ENV + 'test.com/api/',
+    storage: PROTOCOL_ENV + 'test.com/storage/'
 };
