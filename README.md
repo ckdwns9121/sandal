@@ -1,37 +1,23 @@
+## 🥙 샌드위치 배달 서비스 - 샌달
 
-## 패키지
+## 🕰 작업 기간
 
-### 필요한 패키지 정리
+> 20.10.01~ 20.11.01
 
-     $yarn add react-router-dom
-     $yarn add redux react-redux
-     $yarn add react-slick
-     $yarn add node-sass
-     $yarn add @material-ui/core
-     $yarn add immer
-     $yarn add styled-components
-     $yarn add axios
-     $yarn add redux-devtools-extension
-     $yarn add redux-saga
-     &yarn add redux-devtools-extension
-     &yarn add qs
-     &yarn add redux-actions
-    
-### 스타일링 가이드 
-##### SCSS Module , Styled Component 사용
+## 기술스택
 
-   - 사이드 패딩 24px
-   - 바텀 버튼 높이 73px (실 높이 60px 패딩바텀 13px)
-   - 브랜딩 컬러 #007246
-   - 기본 컬러 #999999
-   - 헤더 높이 40px
-   - max-width : 768px (아이패드x)
-   - min-width : 320px
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Saga](https://img.shields.io/badge/SAGA-999999?style=for-the-badge&logo=redux-saga&logoColor=white)
+![Mui](https://img.shields.io/badge/-Mui-0077ff?style=for-the-badge&logo=ant-design&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
+## 로그인 및 회원가입
 
-### 기본적인 최적화 전략
-
-1. shouldComponentUpdate() 를 이용해 갱신체크 (이 프로젝트는 useEffect 사용)
-2. React 내부에서 process.evnv.NODE_ENV가 스트링    'production'인지 여부에 따라 프로덕션 모드로 작동할 것인지, 개발 모드로 작동할 것인지 여부를 결정   
-3. useCallback , useMemo , React.memo 활용 
-4. SSR 해야할까..(?)
+|                                                                        로그인                                                                        |                                                                       회원가입                                                                       |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://user-images.githubusercontent.com/40492343/144026718-22b80467-4687-47f3-a5c9-5541c9dcd6ad.png" width="375px" height="812px"></img> | <img src="https://user-images.githubusercontent.com/40492343/144027023-c20f9b69-b7ac-4f9f-a647-f5615040edd0.png" width="375px" height="812px"></img> |
