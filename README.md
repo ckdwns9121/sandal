@@ -17,9 +17,3 @@ React 기반 샌드위치 배달 서비스
 ![Saga](https://img.shields.io/badge/SAGA-999999?style=for-the-badge&logo=redux-saga&logoColor=white)
 ![Mui](https://img.shields.io/badge/-Mui-0077ff?style=for-the-badge&logo=ant-design&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-
-## 로그인 및 회원가입
-
-|                                                                        로그인                                                                        |                                                                       회원가입                                                                       |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://user-images.githubusercontent.com/40492343/144026718-22b80467-4687-47f3-a5c9-5541c9dcd6ad.png" width="375px" height="812px"></img> | <img src="https://user-images.githubusercontent.com/40492343/144027023-c20f9b69-b7ac-4f9f-a647-f5615040edd0.png" width="375px" height="812px"></img> |
